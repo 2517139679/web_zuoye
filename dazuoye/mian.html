@@ -1,0 +1,284 @@
+ 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>主页</title>
+    <style type="text/css">
+        .body{
+            background-image: url(https://th.bing.com/th/id/OIP.8G21_HMIS-CVm8qPHt-ufAHaEK?w=328&h=184&c=7&r=0&o=5&dpr=2&pid=1.7);
+            background-size: 100%;
+
+        }
+        /*去掉ul的样式*/
+        ul{
+            list-style:none;
+        }
+        /*去掉a标签的下划线*/
+        a{
+            text-decoration: none;
+        }
+        /*设置.nav的宽高、居中显示、下边框样式*/
+        .nav{
+            width: 970px;
+            height: 25px;
+            margin: 0 auto;
+            border-bottom: 2px solid #bf3111;
+        }
+        /*line-height: 25px;与父元素.nav的height一样，使得li居中显示*/
+        .nav li{
+            padding:0 15px 0 15px;
+            line-height: 25px;
+            float: left;
+            font-size: 14px;
+            font-weight: bold;
+        }
+        /*a标签不能继承父标签的颜色，所以需要单独设置a标签中的字体颜色*/
+        .nav li a{
+            color: #bf3111;
+        }
+        /*当鼠标移动到li标签时，背景颜色变成#0266A3*/
+        .nav li:hover{
+            background-color:#bf3111 ;
+        }
+        /*当鼠标移动到li标签时，a标签中的字体颜色变成#0266A3*/
+        .nav  li:hover  a{
+            color: white;
+        }
+        #container {
+	background-color: #f0f0f0;
+	/*背景颜色*/
+	/*
+	外边距
+	上下边距为 0px
+	左右边距为父元素的15%，为了让所有浏览器显示一样的效果
+	*/
+	margin: 0 15%;
+
+
+}
+
+h1 {
+	height: 70px;
+	color: white;
+	/*字体颜色*/
+	background-color: cornflowerblue;
+	line-height: 70px;
+	/*行间距*/
+	text-indent: 70px;
+	/*文本缩进*/
+}
+
+/*导航信息居中*/
+#nav {
+	text-align: center;
+}
+
+/*后代选择器*/
+#nav li {
+	display: inline-block;
+	/*元素设置为行内块级元素*/
+	width: 100px;
+	height: 30px;
+	background-color: cornflowerblue;
+	line-height: 30px;
+	/*行间距与高度一直，则显示在中间*/
+	color: white;
+	border: 1px solid cornflowerblue;
+	border-radius: 0 10px;
+	/*边框左下角和右上角弧度角变为10%*/
+}
+
+#nav li a {
+	text-decoration: none;
+	/*除去文本修饰，去除下划线*/
+	color: white;
+}
+
+#nav li a:hover {
+	font-weight: bold;
+}
+
+.center {
+	text-align: center;
+}
+
+.margin {
+	margin: 0 60px;
+}
+
+.huge {
+	height: 280px;
+	width: 600px;
+}
+
+#userinfo p {
+	text-indent: 30px;
+}
+
+textarea {
+	width: 100%;
+	height: 100px;
+}
+
+#copyright {
+	background: cornflowerblue;
+	text-align: center;
+	color: white;
+	height: 70px;
+	line-height: 70px;/*行间距*/
+	font-size: 12px;
+}
+
+    </style>
+</head>
+<body class="body">
+    
+<div class="nav">
+    <!--href="#":阻断a标签跳转刷新页面-->
+    <ul>
+        <li><a href="#">首页</a></li>
+        <li><a href="picture.html">图片</a></li>
+        <li><a href="video.html">视频</a></li>
+        <li><a href="report.html">结业报告</a></li>
+    </ul>
+</div>
+<h1>人物简历——肖战</h1>
+			<div id="nav">
+				<ul>
+					<li>
+						<a href="#info">基本信息</a>
+					</li>
+					<li>
+						<a href="#early">早年经历</a>
+					</li>
+					<li>
+						<a href="#career">演艺经历</a>
+					</li>
+					<li>
+						<a href="#prize">获奖记录</a>
+					</li>
+					<li>
+						<a href="#contribution">社会活动</a>
+					</li>
+					<li>
+						<a href="#contact">联系信息</a>
+					</li>
+				</ul>
+			</div>
+            
+			<div class="margin" id="userinfo">
+				<div id="info">
+					<h2>基本信息</h2>
+					<p>肖战，1991年10月5日出生于重庆市，中国内地男演员、歌手。
+                        2015年，以选手的身份参加浙江卫视才艺养成选秀节目《燃烧吧少年》。
+                        2016年4月，主演校园星座超能力网络剧《超星星学园》 [1]  。
+                        2018年4月25日，古装奇幻剧《哦！我的皇帝陛下》在腾讯视频播出，肖战凭北堂墨染一角崭露头角 [2]  。
+                        2019年6月27日，古装仙侠剧《陈情令》在腾讯视频播出，肖战凭魏无羡一角赢得广泛关注 [3-4]  ；
+                        9月13日，主演的古装仙侠电影《诛仙I》在全国上映 [5]  。
+                        2020年1月24日，肖战首次登上中央广播电视总台春节联欢晚会，与谢娜等合作表演小品《喜欢你，喜欢我》。
+                        2021年2月5日，主演的古装玄幻励志剧《斗罗大陆》登陆CCTV-8 [7]  ；
+                        3月，主演古装奇幻剧《玉骨遥》 [124]  ；4月22日，主演的央华版《如梦之梦》在武汉首演 [126]  ；
+                        12月26日，主演的军旅剧《王牌部队》登陆江苏卫视 [144]  。
+                        2022年，主演年代情感剧《梦中的那片海》 [150]  ；3月15日，
+                        主演的都市情感剧《余生，请多指教》登陆湖南卫视 [151]  。
+					</p>
+
+				</div>
+				<div id="early">
+					<h2>早年经历</h2>
+					<p>
+						重庆工商大学毕业
+					</p>
+					<p>
+						X玖少年团，中国内地流行乐男子演唱组合，由赵磊、夏之光、彭楚粤、伍嘉成、谷嘉诚、郭子凡、肖战、焉栩嘉组成 [1]  。
+2015年，参加浙江卫视才艺养成励志节目《燃烧吧少年》的比赛，被挑选成为录制节目的选手 [2]  。
+2016年，主演青春校园超能力网络剧《超星星学园》 [3]  ；9月24日，推出组合首支单曲《以己之名》 [4]  ；
+9月28日，举行出道发布会，并宣布正式出道 [5]  ；11月6日，获得“首届粉丝嘉年华年度盛典”明星势力榜年度新人团体奖 [6]  ；
+12月10日，获得“腾讯视频星光大赏”年度青春大势男团奖 [7]  。2017年4月2日，在上海大舞台举行组合出道首场演唱会“以己之名” [8]  ；
+同年，获得亚洲金曲大赏年度最受欢迎团体奖。2019年，组合成员夏之光、赵磊、彭楚粤、焉栩嘉作为选手参加了腾讯视频青年团训节目《创造营2019》 [9]  ，
+最终焉栩嘉、夏之光、赵磊分别以第3、4、10名的成绩加入男子组合R1SE [10]  。
+2020年9月，陈泽希确认已经退出X玖少年团，并专注于说唱音乐和时尚领域 [11]  。
+					</p>
+					
+				</div>
+				<div id="career">
+					<h2>演绎经历</h2>
+					<table border="1" align="center" cellspacing="0">
+						<tr>
+							<th width="100px">时期</th>
+							<th>经历</th>
+						</tr>
+						<tr>
+							<td>
+								2015
+							</td>
+							<td>《燃烧吧，少年》出道</td>
+						</tr>
+						<tr>
+							<td>
+								2016
+							</td>
+							<td>
+								《超星星学院》
+							</td>
+						</tr>
+						<tr>
+							<td>
+								2018
+							</td>
+							<td>
+								《哦，我的皇帝陛下》
+							</td>
+						</tr>
+						<tr>
+							<td>
+								2019
+							</td>
+							<td>
+								《陈情令》
+							</td>
+						</tr>
+						<tr>
+							<td>
+								2020
+							</td>
+							<td>
+								《余生请多指教》
+							</td>
+						</tr>
+						
+					</table>
+				</div>
+				<div id="prize">
+					<h2>获奖记录</h2>
+					<p>阿巴阿巴</p>
+				</div>
+				<div id="contribution">
+					<h2>社会活动</h2>
+					<p>社会活动经历</p>
+				</div>
+				<div id="contact">
+					<h2>联系方式</h2>
+					<p>2517139679@qq.com</p>
+					<form action="mailto://1179103245@qq.com">
+						<textarea>
+
+					</textarea><br>
+						<button type="submit">提交</button>
+					</form>
+				</div>
+				<div class="center">
+					<a href="#">返回顶部</a>
+
+				</div>
+				<div id="copyright">
+					<p> 2022 by：Winnie </p>
+				</div>
+			</div>
+		</div>
+
+
+
+</body>
+</html>
